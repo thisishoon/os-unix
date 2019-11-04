@@ -1,0 +1,32 @@
+#
+# This is sample input file for OS assignment #2
+#
+
+# normal processes
+P1 H 0 8 3
+P2 L 1 4 2
+P3 M 2 9 4
+P4 H 3 5 1
+
+# invalid process id
+p L 4 6 9
+_1 M 5 6 7
+
+# duplicate process id
+P3 M 4 4 4
+
+# invalid arrive time
+P5 H -1 4 4
+P5 L 31 4 4
+
+# invalid service time
+P6 M 4 0 4
+P6 H 4 60 3
+
+# invalid priority
+P7 H 5 2 0
+P7 L 5 2 11
+P7 M 5 2 -1
+
+
+
