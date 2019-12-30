@@ -33,6 +33,7 @@ sigaction()대신 signalfd()를 이용해서 SIGCHLD시그널을 처리
 오류가 있을 경우 표준에러(stderr) 장치로 에러 메시지를 출력하고 해당 행은 무시. 
 
 
+<img src="./img/2-1.jpg" width="20%">  <img src="./img/2-2.jpg" width="40%">
 
 
 
@@ -49,12 +50,15 @@ sigaction()대신 signalfd()를 이용해서 SIGCHLD시그널을 처리
 - Number of msec : thinking 또는 eating 시간(10~1000사이 정수) 
 
 - Number of think-eat cycles : 프로그램 종료 시까지 thinking-eating 사이클 수(1~100사이 정수) 
+<img src="./img/3-1.jpg" width="60%">
+
 
 # 4.access_system_info
 
 /proc 파일 시스템에 제공하는 커널 정보 또는 프로세스 정보를 출력한다. 
 
 1. 리눅스 커널 버전 2. 시스템의 CPU 갯수, 클럭 속도, 코어의 갯수 3. 시스템의 사용중인 메모리 및 사용 가능한 메모리 4. 시스템이 마지막으로 부팅된 시간(day:hr:min:sec) 5. 문맥 교환 개수 6. 인터럽트 개수 7. 최근 15분 동안 부하 평균.
+<img src="./img/4-1.jpg" width="70%">
 
 
 
